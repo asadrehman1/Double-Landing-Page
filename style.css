@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+}
+
+.split{
+    width: 100%;
+    height:100vh;
+    text-align: center;
+}
+.left{
+    background-color: pink;
+    background-image: url("https://gsmart.pk/wp-content/uploads/2021/09/iphone-13-pro-blue-select.png");
+    background-size: cover;
+    background-position: center;
+    transition: 2s ease-in-out;
+}
+.right{
+    background-color: lightblue;
+    background-image: url("https://www.pakmobizone.pk/wp-content/uploads/2022/02/Samsung-Galaxy-S22-Ultra-5G-Phantom-White-8.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 2s ease-in-out;
+}
+h1{
+    font-size:100px;
+    backdrop-filter:brightness(.3);
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 100px;
+}
+button{
+    background-color: black;
+    color:white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 1s ease-in-out;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    color:black;
+    background-color: white;
+}
+.left-class{
+    width:75%;
+}
+.right-class{
+    width:25%
+}
+.left-class-2{
+    width:25%;
+}
+.right-class-2{
+    width:75%
+}
