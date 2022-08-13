@@ -15,16 +15,14 @@
 }
 .left{
     background-color: pink;
-    background-image: url("https://gsmart.pk/wp-content/uploads/2021/09/iphone-13-pro-blue-select.png");
+    background-image: url("https://www.powerplanetonline.com/cdnassets/apple_iphone_13_pro_max_128gb_oro_01_l.jpg");
     background-size: cover;
-    background-position: center;
     transition: 2s ease-in-out;
 }
 .right{
     background-color: lightblue;
     background-image: url("https://www.pakmobizone.pk/wp-content/uploads/2022/02/Samsung-Galaxy-S22-Ultra-5G-Phantom-White-8.jpg");
     background-size: cover;
-    background-position: center;
     transition: 2s ease-in-out;
 }
 h1{
@@ -36,12 +34,12 @@ h1{
 }
 button{
     background-color: black;
+    border:3px solid white;
     color:white;
     padding: 20px 40px;
     border-radius: 10px;
     font-size: 20px;
     transition: 1s ease-in-out;
-    border: none;
 }
 button:hover{
     cursor: pointer;
